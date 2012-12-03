@@ -16,3 +16,5 @@ GREEN="\[\033[0;32m\]"
 STOP="\[\033[0;00m\]"
 
 PS1="[\u@\h \W]$YELLOW\$(parse_git_branch)$STOP\$ "
+
+export PAGER=less
