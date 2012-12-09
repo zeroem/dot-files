@@ -14,6 +14,7 @@ call SetupVAM()
 set expandtab
 set shiftwidth=4
 set softtabstop=4
-
 set ai
 set nu
+
+let g:snips_author = "Darrell Hamilton <darrell.noice@gmail.com>"
