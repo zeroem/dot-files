@@ -1,6 +1,6 @@
 [user]
     name = Darrell Hamilton
-    email = dhamilton@cj.com
+    email = darrell.noice@gmail.com
 
 [color]
     ui = true
@@ -10,6 +10,7 @@
     ci = commit
     co = checkout
     di = diff
+    dc = diff --cached
     b = branch
     pom = push origin master
     fa = fetch --all
@@ -30,3 +31,6 @@
 
 [merge]
     tool = vimdiff
+
+[core]
+    excludesfile = ~/.gitignore
