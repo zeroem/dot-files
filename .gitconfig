@@ -27,10 +27,13 @@
     pretty = format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
 
 [diff]
-	tool = vimdiff
+    tool = vimdiff
 
 [merge]
     tool = vimdiff
 
 [core]
     excludesfile = ~/.gitignore
+
+[github]
+    user = zeroem
