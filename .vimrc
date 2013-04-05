@@ -16,7 +16,7 @@ fun SetupVAM()
     if !isdirectory(vam_install_path.'/vim-addon-manager/autoload')
         execute '!git clone --depth=1 https://github.com/MarcWeber/vim-addon-manager.git '.shellescape(vam_install_path, 1).'/vim-addon-manager'
     endif
-    call vam#ActivateAddons(['snipmate-snippets'], {'auto_install' : 0})
+    call vam#ActivateAddons(['snipmate-snippets', 'VimClojure', 'vim-foreplay', 'vim-clojure-static', 'vim-classpath', 'vim-scala'], {'auto_install' : 0})
 endfun
 call SetupVAM()
 
@@ -25,5 +25,6 @@ set shiftwidth=4
 set softtabstop=4
 set ai
 set nu
+set hlsearch
 
 let g:snips_author = "Darrell Hamilton <darrell.noice@gmail.com>"
