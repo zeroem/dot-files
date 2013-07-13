@@ -37,3 +37,5 @@
 
 [github]
     user = zeroem
+[push]
+	default = simple
