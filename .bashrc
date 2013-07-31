@@ -1,5 +1,3 @@
-source ~/dot-files/bash-git-prompt/gitprompt.sh
-
 export PAGER=less
 export EDITOR=vim
 
